@@ -1,7 +1,7 @@
 import gpxpy
 import folium
 
-def plotGpxOnMap(fileList, output="map.html"):
+def plotGpxOnMap(fileList, output="index.html"):
     m = folium.Map(location=[42.342855, 13.40408],zoom_start=14)
 
     genPoints=[]
